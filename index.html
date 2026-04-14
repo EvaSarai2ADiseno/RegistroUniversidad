@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Academia Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="info-side">
+        <img src="img/logo.png.png" alt="Logo" class="logo">
+        <h1>Academia de México</h1>
+        <p>Impulsando el talento hacia el futuro. Únete a nuestra comunidad y transforma tu carrera hoy mismo.</p>
+        <img src="img/estudiantes.jpg.jpg" alt="Estudiantes Tech" class="hero-image">
+    </div>
+
+    <div class="form-side">
+        <div class="form-container">
+            <h2>Formulario de Registro</h2>
+            <form id="registroForm">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label>Apellidos</label>
+                    <input type="text" name="apellidos" placeholder="Tus apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label>Teléfono</label>
+                    <input type="tel" name="telefono" placeholder="Ej: 12345678" required>
+                </div>
+                <div class="form-group">
+                    <label>Correo</label>
+                    <input type="email" name="correo" placeholder="correo@ejemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Carrera de Interés</label>
+                    <select name="carrera" required>
+                        <option value="">Selecciona una especialidad</option>
+                        <option value="Desarrollo de Software">Ingenería en sistemas</option>
+                        <option value="Ciberseguridad">Diseño Gráfico</option>
+                        <option value="Inteligencia Artificial">Ingenería en animación digital</option>
+                        <option value="Diseño UX/UI">Arquitectura</option>
+                    </select>
+                </div>
+                <button type="submit" id="btnEnviar">Enviar Registro</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
